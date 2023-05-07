@@ -1,0 +1,43 @@
+<!ELEMENT biblioteca (libros, revistas, periodicos)>
+<!ELEMENT libros (libro+)>
+<!ELEMENT libro (titulo, capitulos, indice, sinopsis, numero_paginas)>
+<!ELEMENT capitulos (capitulo+)>
+<!ELEMENT capitulo (titulo, numero_paginas, contenido)>   
+<!ELEMENT revistas (revista+)>
+<!ELEMENT revista (titulo, numero_revista, indice, secciones, numero_paginas)>
+<!ELEMENT secciones (seccion+)>
+<!ELEMENT seccion (titulo, numero_paginas, contenido)>
+<!ELEMENT periodicos (periodico+)>
+<!ELEMENT periodico (fecha_publicacion, indice, secciones_periodico)>
+<!ELEMENT secciones_periodico (seccion_periodico+)>
+<!ELEMENT seccion_periodico (articulos)>
+<!ELEMENT articulos (articulo+)>
+<!ELEMENT articulo (autor, contenido)>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT numero_paginas (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
+<!ELEMENT indice (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT numero_revista (#PCDATA)>
+<!ELEMENT fecha_publicacion (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+
+<!ATTLIST libro 
+    id ID #REQUIRED
+    tipo_clase (Novela | Infantil | Didactico) #REQUIRED
+>
+<!ATTLIST revista 
+    id ID #REQUIRED
+    tipo_clase (Informatica | Corazon | Coches | Investigacion | Otras) #REQUIRED
+>
+<!ATTLIST periodico 
+    id ID #REQUIRED
+    tipo_clase (Nacionales | Internacionales) #REQUIRED
+>
+<!ATTLIST seccion_periodico 
+    tipo_seccion (Economica | Opinion | Deportes | Nacional | Internacional) #REQUIRED
+>
+<!ATTLIST contenido 
+    enlace CDATA #REQUIRED
+>
