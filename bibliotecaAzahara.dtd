@@ -25,26 +25,33 @@
 <!ATTLIST libro 
 id ID #REQUIRED
 Tipo_clase (Novela | Infantil | Didactico) CDATA #REQUIRED
-NumeroPaginas CDATA #REQUIRED>
+NumeroPaginas CDATA #REQUIRED
+>
 
 <!ATTLIST capitulo 
-NumeroCapitulo CDATA #REQUIRED>
+NumeroCapitulo CDATA #REQUIRED
+>
 
 <!ATTLIST Contenido 
-enlace CDATA #FIXED "enlace.html">
+enlace CDATA #FIXED "enlace.html"
+>
 
 <!ATTLIST revista 
 id ID #FIXED "R"
 Tipo_clase CDATA #REQUIRED
-NumeroPaginas CDATA #REQUIRED>
+NumeroPaginas CDATA #REQUIRED
+>
 
 <!ATTLIST periodico
  id ID #REQUIRED
 Tipo_clase (Nacionales | Internacionales) CDATA #REQUIRED
-FechaPublicacion CDATA #REQUIRED>
+FechaPublicacion CDATA #REQUIRED
+>
 
 <!ATTLIST seccion_periodico 
-tipoSeccion (Economica | Opinion | Deportes | Nacional | Internacional) CDATA #REQUIRED>
+tipoSeccion (Economica | Opinion | Deportes | Nacional | Internacional) CDATA #REQUIRED
+>
 
 <!ATTLIST articulo
- autor CDATA #REQUIRED>
+ autor CDATA #REQUIRED
+ >

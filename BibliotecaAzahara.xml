@@ -43,8 +43,8 @@
                  <indice/>
                  <Secciones>
                         <Seccion>
-                                  <NumeroPagina>Numero pagina</NumeroPagina> 
-                                  <Contenido enlace="enlace.html"/>
+                                <NumeroPagina>Numero pagina</NumeroPagina> 
+                                <Contenido enlace="enlace.html"/>
                         </Seccion>
                  </Secciones>
           </revista>
@@ -54,7 +54,7 @@
                  <indice/>            
                  <Secciones>
                         <Seccion>
-                                 <NumeroPagina>Numero pagina</NumeroPagina> 
+                                <NumeroPagina>Numero pagina</NumeroPagina> 
                                 <Contenido enlace="enlace.html"/>
                         </Seccion>
                  </Secciones>
