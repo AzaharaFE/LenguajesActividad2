@@ -73,10 +73,113 @@
                 1. Noticias tecnológicas
                 2.Análisis de dispositivos
             </indice_rev>
-            <seccion_rev>
-                
-            </seccion_rev>        
+            <seccion_rev num_pag_sec="10" nombre_sec="Noticias tecnológicas">
+                <contenido enlace="enlace.html">
+                "Apple lanza su nuevo sistema operativo iOS 15"
+                "Amazon presenta su nueva línea de dispositivos Echo"
+                "Facebook anuncia cambios en su política de privacidad"
+                </contenido>
+            </seccion_rev>  
+            <seccion_rev num_pag_sec="25" nombre_sec="Análisis de dispositivos">
+                <contenido enlace="enlace.html">
+                "Análisis del nuevo iPhone 13"
+                "Review de la tableta Samsung Galaxy Tab S7+"
+                "Comparativa de los mejores auriculares inalámbricos del mercado"
+                </contenido>
+            </seccion_rev>
+        </revista>
+
+        <revista id="R0002" tipo_clase="corazon" num_pag="40">
+            <titulo_rev>Gente</titulo_rev>
+            <numero_rev>1234</numero_rev>
+            <indice_rev>
+                1. Noticias de famosos
+                2. Escándalos del corazón
+            </indice_rev>
+            <seccion_rev num_pag_sec="15" nombre_sec="Noticias de famosos">
+                <contenido enlace="enlace.html">
+                    "¡Confirmado! La relación de Jennifer López y Ben Affleck"
+                    "¿Qué pasa entre Irina Shayk y Kanye West?"
+                    "Así celebraron su aniversario David Bustamante y Yana Olina"
+                </contenido>
+            </seccion_rev>  
+            <seccion_rev num_pag_sec="25" nombre_sec="Escándalos del corazón">
+                <contenido enlace="enlace.html">
+                    "El sorprendente cambio físico de Alejandra Rubio"
+                    "La madre de Adara Molinero rompe su silencio"
+                    "El drama de Isa Pantoja: sufrimiento y soledad en 'Supervivientes'"
+                </contenido>
+            </seccion_rev>
+        </revista>
+
+        <revista id="R0003" tipo_clase="coches" num_pag="45">
+            <titulo_rev>Motor</titulo_rev>
+            <numero_rev>567</numero_rev>
+            <indice_rev>
+                1. Novedades del mercado
+                2. Pruebas de coches
+                3. Reportajes sobre el mundo del motor
+            </indice_rev>
+            <seccion_rev num_pag_sec="15" nombre_sec="Novedades del mercado">
+                <contenido enlace="enlace.html">
+                    "El nuevo Audi A4: un modelo renovado y lleno de tecnología"
+                    "El Ford Mustang Mach-E, el primer SUV eléctrico de la marca"
+                    "La renovación del Opel Astra: más deportividad y tecnología"
+                </contenido>
+            </seccion_rev>  
+            <seccion_rev num_pag_sec="15" nombre_sec="Pruebas de coches">
+                <contenido enlace="enlace.html">
+                    "Prueba del Toyota Supra: potencia y deportividad"
+                    "Comparativa de los SUV de lujo: Audi Q8, BMW X7 y Mercedes-Benz GLE"
+                    "Prueba del Renault Clio: el superventas se renueva"
+                </contenido>
+            </seccion_rev>
+            <seccion_rev num_pag_sec="15" nombre_sec="Reportajes sobre el mundo del motor">
+                <contenido enlace="enlace.html">
+                    "La historia del Porsche 911: más de 50 años de deportividad"
+                    "¿Cómo es la fábrica de Ferrari? Un vistazo a la meca de los superdeportivos"
+                    "Los coches de película: los vehículos más famosos del cine y la televisión"
+                </contenido>
+            </seccion_rev>
         </revista>
     </revistas>
 
+    <periodicos>
+        <periodico id="P0001" tipo_clase="nacionales" fecha_publicacion="28/2/2023">
+            <secciones_per>
+                <seccion_per tipo_seccion="economica">
+                    <articulo_per autor="Antonio">
+                        <contenido_per enlace="enlace.html"/>
+                    </articulo_per>
+                </seccion_per>
+                <seccion_per tipo_seccion="opinion">
+                    <articulo_per autor="Juan">
+                        <contenido_per enlace="enlace.html"/>
+                    </articulo_per>
+                </seccion_per>
+            </secciones_per>
+            <indice_per>
+                1.Noticias Economicas
+                2. Noticias Opinion
+            </indice_per>
+            </periodico>
+            <periodico id="P0001" tipo_clase="internacionales" fecha_publicacion="09/05/2023">
+                <secciones_per>
+                    <seccion_per tipo_seccion="economica">
+                        <articulo_per autor="John Doe">
+                            <contenido_per enlace="enlace.html"/>
+                        </articulo_per>
+                    </seccion_per>
+                    <seccion_per tipo_seccion="internacional">
+                        <articulo_per autor="Jane Smith">
+                            <contenido_per enlace="enlace.html"/>
+                        </articulo_per>
+                    </seccion_per>
+                </secciones_per>
+                <indice_per>
+                    1. Noticias Económicas
+                    2. Noticias Internacionales
+                </indice_per>
+        </periodico>
+    </periodicos>
 </biblioteca>

@@ -30,7 +30,6 @@ enlace CDATA #REQUIRED>
 <!ELEMENT numero_rev (#PCDATA)>
 <!ELEMENT indice_rev (#PCDATA)>
 <!ELEMENT seccion_rev (contenido)>
-<!ELEMENT contenido_rev (#PCDATA)>
 
 <!--ATRIBUTOS PARA REVISTAS -->
 
@@ -42,8 +41,6 @@ num_pag CDATA #REQUIRED>
 <!ATTLIST seccion_rev 
 num_pag_sec CDATA #REQUIRED
 nombre_sec CDATA #REQUIRED>
-
-<!ATTLIST contenido_rev enlace CDATA #REQUIRED>
 
 <!-- PERIODICOS -->
 
@@ -61,7 +58,10 @@ tipo_clase (nacionales | internacionales) #REQUIRED
 fecha_publicacion CDATA #REQUIRED>
 
 <!ATTLIST seccion_per 
-tipo_seccion (economica | opinion | deportes | nacional | internacional) CDATA #REQUIRED>
+tipo_seccion (economica | opinion | deportes | nacional | internacional) #REQUIRED>
 
 <!ATTLIST articulo_per
 autor CDATA #REQUIRED>
+
+<!ATTLIST contenido_per 
+enlace CDATA #REQUIRED>
