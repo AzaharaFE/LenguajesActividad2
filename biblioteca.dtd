@@ -1,35 +1,41 @@
 <!ELEMENT biblioteca (libros, revistas, periodicos)>
 <!ELEMENT libros (libro+)>
-<!ELEMENT libro (titulo, capitulos, indice, sinopsis, numero_paginas)>
+<!ELEMENT libro (titulo, capitulos, indice, sinopsis)>
 <!ELEMENT capitulos (capitulo+)>
-<!ELEMENT capitulo (titulo, numero_paginas, contenido)>   
+<!ELEMENT capitulo (titulo, contenido)>   
 <!ELEMENT revistas (revista+)>
-<!ELEMENT revista (titulo, numero_revista, indice, secciones, numero_paginas)>
+<!ELEMENT revista (titulo, numero_revista, indice, secciones)>
 <!ELEMENT secciones (seccion+)>
-<!ELEMENT seccion (titulo, numero_paginas, contenido)>
+<!ELEMENT seccion (titulo, contenido)>
 <!ELEMENT periodicos (periodico+)>
 <!ELEMENT periodico (fecha_publicacion, indice, secciones_periodico)>
 <!ELEMENT secciones_periodico (seccion_periodico+)>
 <!ELEMENT seccion_periodico (articulos)>
 <!ELEMENT articulos (articulo+)>
-<!ELEMENT articulo (autor, contenido)>
+<!ELEMENT articulo (contenido)>
 
 <!ELEMENT titulo (#PCDATA)>
-<!ELEMENT numero_paginas (#PCDATA)>
 <!ELEMENT contenido (#PCDATA)>
 <!ELEMENT indice (#PCDATA)>
 <!ELEMENT sinopsis (#PCDATA)>
 <!ELEMENT numero_revista (#PCDATA)>
 <!ELEMENT fecha_publicacion (#PCDATA)>
-<!ELEMENT autor (#PCDATA)>
 
 <!ATTLIST libro 
     id ID #REQUIRED
     tipo_clase (Novela | Infantil | Didactico) #REQUIRED
+    numero_paginas CDATA #REQUIRED
+>
+<!ATTLIST capitulo 
+    numero_paginas CDATA #REQUIRED
 >
 <!ATTLIST revista 
     id ID #REQUIRED
     tipo_clase (Informatica | Corazon | Coches | Investigacion | Otras) #REQUIRED
+    numero_paginas CDATA #REQUIRED
+>
+<!ATTLIST seccion 
+    numero_paginas CDATA #REQUIRED
 >
 <!ATTLIST periodico 
     id ID #REQUIRED
@@ -40,4 +46,7 @@
 >
 <!ATTLIST contenido 
     enlace CDATA #REQUIRED
+>
+<!ATTLIST articulo 
+    autor CDATA #REQUIRED
 >

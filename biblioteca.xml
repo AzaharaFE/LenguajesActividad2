@@ -2,22 +2,19 @@
 <?xml-model href="biblioteca.xsd"?>
 <biblioteca>
     <libros>
-        <libro id="L0001" tipo_clase="Novela">
+        <libro id="L0001" tipo_clase="Novela" numero_paginas="55">
             <titulo>El misterio de la isla perdida</titulo>
             <capitulos>
-                <capitulo>
+                <capitulo numero_paginas="10">
                     <titulo>El inicio de la aventura</titulo>
-                    <numero_paginas>10</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </capitulo>
-                <capitulo>
+                <capitulo numero_paginas="20">
                     <titulo>El viaje en barco</titulo>
-                    <numero_paginas>20</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </capitulo>
-                <capitulo>
+                <capitulo numero_paginas="25">
                     <titulo>La tormenta en alta mar</titulo>
-                    <numero_paginas>25</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </capitulo>
             </capitulos>
@@ -35,34 +32,28 @@
                         que resolver el misterio de la isla perdida para poder escapar con vida. ¿Lograrán descubrir el 
                         secreto de la isla? Descúbrelo en esta emocionante novela de aventuras.
             </sinopsis>
-            <numero_paginas>55</numero_paginas>
         </libro>
-        <libro id="L0002" tipo_clase="Infantil">
+        <libro id="L0002" tipo_clase="Infantil" numero_paginas="61">
             <titulo>El gran libro de los animales</titulo>
             <capitulos>
-                <capitulo>
+                <capitulo numero_paginas="7">
                     <titulo>Introducción a los animales</titulo>
-                    <numero_paginas>7</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </capitulo>
-                <capitulo>
+                <capitulo numero_paginas="19">
                     <titulo>Animales terrestres</titulo>
-                    <numero_paginas>19</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </capitulo>
-                <capitulo>
+                <capitulo numero_paginas="12">
                     <titulo>Animales acuáticos</titulo>
-                    <numero_paginas>12</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </capitulo>
-                <capitulo>
+                <capitulo numero_paginas="15">
                     <titulo>Animales exóticos</titulo>
-                    <numero_paginas>15</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </capitulo>
-                <capitulo>
+                <capitulo numero_paginas="8">
                     <titulo>Animales en peligro de extinción</titulo>
-                    <numero_paginas>8</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </capitulo>
             </capitulos>
@@ -84,19 +75,16 @@
                          ¡Acompaña a los personajes de este libro en un emocionante viaje por el mundo de 
                          los animales!
             </sinopsis>
-            <numero_paginas>61</numero_paginas>
         </libro>
-        <libro id="L0003" tipo_clase="Didactico">
+        <libro id="L0003" tipo_clase="Didactico" numero_paginas="55">
             <titulo>La ciencia detrás de las estrellas</titulo>
             <capitulos>
-                <capitulo>
+                <capitulo numero_paginas="30">
                     <titulo>El Universo</titulo>
-                    <numero_paginas>30</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </capitulo>
-                <capitulo>
+                <capitulo numero_paginas="20">
                     <titulo>Las estrellas</titulo>
-                    <numero_paginas>20</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </capitulo>
             </capitulos>
@@ -115,11 +103,10 @@
                         y la historia de la humanidad. Con este libro, los lectores podrán aprender sobre 
                         la ciencia detrás de las estrellas de una manera sencilla y accesible.
             </sinopsis>
-            <numero_paginas>55</numero_paginas>
         </libro>
     </libros>
     <revistas>
-        <revista id="R0001" tipo_clase="Coches">
+        <revista id="R0001" tipo_clase="Coches" numero_paginas="30">
             <titulo>Maxi Tunning</titulo>
             <numero_revista>51</numero_revista>
             <indice>
@@ -128,25 +115,21 @@
                     3. Spotlight en el mundo del tunning
             </indice>
             <secciones>
-                <seccion> 
+                <seccion numero_paginas="10"> 
                     <titulo>Transformando tu coche</titulo>
-                    <numero_paginas>10</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
-                <seccion>
+                <seccion numero_paginas="15">
                     <titulo>Garage Showdown</titulo>
-                    <numero_paginas>15</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
-                <seccion>
+                <seccion numero_paginas="5">
                     <titulo>Spotlight en el mundo del tunning</titulo>
-                    <numero_paginas>5</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
             </secciones>
-            <numero_paginas>30</numero_paginas>
         </revista>
-        <revista id="R0002" tipo_clase="Informatica">
+        <revista id="R0002" tipo_clase="Informatica" numero_paginas="45">
             <titulo>Byte Beat</titulo>
             <numero_revista>10</numero_revista>
             <indice>
@@ -155,25 +138,21 @@
                     3. Online Security
             </indice>
             <secciones>
-                <seccion>
+                <seccion numero_paginas="15">
                     <titulo>Tech Trends</titulo>
-                    <numero_paginas>15</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
-                <seccion>
+                <seccion numero_paginas="10">
                     <titulo>Code World</titulo>
-                    <numero_paginas>10</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
-                <seccion>
+                <seccion numero_paginas="20">
                     <titulo>Online Security</titulo>
-                    <numero_paginas>20</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
             </secciones>
-            <numero_paginas>45</numero_paginas>
         </revista>
-        <revista id="R0003" tipo_clase="Corazon">
+        <revista id="R0003" tipo_clase="Corazon" numero_paginas="35">
             <titulo>Corazón y Estilo</titulo>
             <numero_revista>7</numero_revista>
             <indice>
@@ -183,30 +162,25 @@
                     4. Moda y belleza
             </indice>
             <secciones>
-                <seccion>
+                <seccion numero_paginas="5">
                     <titulo>Famosos y famosas</titulo>
-                    <numero_paginas>5</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
-                <seccion>
+                <seccion numero_paginas="5">
                     <titulo>Amor y relaciones</titulo>
-                    <numero_paginas>5</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
-                <seccion>
+                <seccion numero_paginas="15">
                     <titulo>Vida saludable</titulo>
-                    <numero_paginas>15</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
-                <seccion>
+                <seccion numero_paginas="10">
                     <titulo>Moda y belleza</titulo>
-                    <numero_paginas>10</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
             </secciones>
-            <numero_paginas>35</numero_paginas>
         </revista>
-        <revista id="R0004" tipo_clase="Investigacion">
+        <revista id="R0004" tipo_clase="Investigacion" numero_paginas="30">
             <titulo>Descubre</titulo>
             <numero_revista>18</numero_revista>
             <indice>
@@ -214,20 +188,17 @@
                     2. Medio ambiente y sostenibilidad
             </indice>
             <secciones>
-                <seccion> 
+                <seccion numero_paginas="21"> 
                     <titulo>Ciencia y tecnología</titulo>
-                    <numero_paginas>21</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
-                <seccion>
+                <seccion numero_paginas="9">
                     <titulo>Medio ambiente y sostenibilidad</titulo>
-                    <numero_paginas>9</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
             </secciones>
-            <numero_paginas>30</numero_paginas>
         </revista>
-        <revista id="R0005" tipo_clase="Otras">
+        <revista id="R0005" tipo_clase="Otras" numero_paginas="45">
             <titulo>ArquiMag</titulo>
             <numero_revista>33</numero_revista>
             <indice>
@@ -237,28 +208,23 @@
                     4. Patrimonio arquitectónico
             </indice>
             <secciones>
-                <seccion> 
+                <seccion numero_paginas="10"> 
                     <titulo>Diseño y tendencias</titulo>
-                    <numero_paginas>10</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
-                <seccion> 
+                <seccion numero_paginas="10"> 
                     <titulo>Construcción y materiales</titulo>
-                    <numero_paginas>10</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
-                <seccion> 
+                <seccion numero_paginas="13"> 
                     <titulo>Arquitectura sostenible</titulo>
-                    <numero_paginas>13</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
-                <seccion> 
+                <seccion numero_paginas="12"> 
                     <titulo>Patrimonio arquitectónico</titulo>
-                    <numero_paginas>12</numero_paginas>
                     <contenido enlace="enlace.html" />
                 </seccion>
             </secciones>
-            <numero_paginas>45</numero_paginas>
         </revista>
     </revistas>
     <periodicos>
@@ -276,28 +242,24 @@
             <secciones_periodico>
                 <seccion_periodico tipo_seccion="Deportes">
                     <articulos>
-                        <articulo>
-                            <autor>María García Pérez</autor>
+                        <articulo autor="María García Pérez">
                             <contenido enlace="enlace.html" />
                         </articulo>
-                        <articulo>
-                            <autor>Javier Vallés Cuenca</autor>
+                        <articulo autor="Javier Vallés Cuenca">
                             <contenido enlace="enlace.html" />
                         </articulo>
                     </articulos>
                 </seccion_periodico>
                 <seccion_periodico tipo_seccion="Economica">
                     <articulos>
-                        <articulo>
-                            <autor>Laura Rodríguez Gómez</autor>
+                        <articulo autor="Laura Rodríguez Gómez">
                             <contenido enlace="enlace.html" />
                         </articulo>
                     </articulos>
                 </seccion_periodico>
                 <seccion_periodico tipo_seccion="Nacional">
                     <articulos>
-                        <articulo>
-                            <autor>Eduardo Ramírez García</autor>
+                        <articulo autor="Eduardo Ramírez García">
                             <contenido enlace="enlace.html" />
                         </articulo>
                     </articulos>
@@ -318,28 +280,23 @@
             <secciones_periodico>
                 <seccion_periodico tipo_seccion="Internacional">
                     <articulos>
-                        <articulo>
-                            <autor>Daniel Pérez Ruiz</autor>
+                        <articulo autor="Daniel Pérez Ruiz">
                             <contenido enlace="enlace.html" />
                         </articulo>
-                        <articulo>
-                            <autor>Julia García Fernández</autor>
+                        <articulo autor="Julia García Fernández">
                             <contenido enlace="enlace.html" />
                         </articulo>
                     </articulos>
                 </seccion_periodico>
                 <seccion_periodico tipo_seccion="Opinion">
                     <articulos>
-                        <articulo>
-                            <autor>Carlos Moreno Torres</autor>
+                        <articulo autor="Carlos Moreno Torres">
                             <contenido enlace="enlace.html" />
                         </articulo>
-                        <articulo>
-                            <autor>Martina García Flores</autor>
+                        <articulo autor="Martina García Flores">
                             <contenido enlace="enlace.html" />
                         </articulo>
-                        <articulo>
-                            <autor>Javier Rodríguez López</autor>
+                        <articulo autor="Javier Rodríguez López">
                             <contenido enlace="enlace.html" />
                         </articulo>
                     </articulos>
