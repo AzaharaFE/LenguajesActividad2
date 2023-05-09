@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<?xml-model href="biblioteca.xsd"?>
 <biblioteca>
     <libros>
         <libro id="L0001" tipo_clase="Novela">
@@ -263,7 +263,7 @@
     </revistas>
     <periodicos>
         <periodico id="P0001" tipo_clase="Nacionales">
-            <fecha_publicacion>21/02/2023</fecha_publicacion>
+            <fecha_publicacion>2023-02-21</fecha_publicacion>
             <indice>
                     1. Deportes
                         1.1 María García Pérez
@@ -305,7 +305,7 @@
             </secciones_periodico>
         </periodico>
         <periodico id="P0002" tipo_clase="Internacionales">
-            <fecha_publicacion>7/03/2023</fecha_publicacion>
+            <fecha_publicacion>2023-03-07</fecha_publicacion>
             <indice>
                     1. Internacional
                         1.1 Daniel Pérez Ruiz
