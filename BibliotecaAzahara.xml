@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BibliotecaAzahara SYSTEM "BibliotecaAzahara.dtd">
+<BibliotecaAzahara>
+        <libros>
+         <libro id="L1111" Tipo_clase="Novela" NumeroPaginas="valor">
+                <titulo>Nombre libro</titulo>
+                        <capitulos>
+                                <capitulo NumeroCapitulo="valor">
+                                        <titulo>Nombre capitulo</titulo>
+                                        <Contenido enlace="enlace.html"/>
+                                </capitulo>
+                        </capitulos> 
+                <indice/>
+                <sinopsis/>
+         </libro>          
+         <libro id="L2222" Tipo_clase="Infantil" NumeroPaginas="valor">
+                <titulo>Nombre libro</titulo>
+                        <capitulos>
+                                <capitulo NumeroCapitulo="valor">
+                                        <titulo>Nombre capitulo</titulo>
+                                        <Contenido enlace="enlace.html"/>
+                                </capitulo>
+                        </capitulos> 
+                <indice/>
+                <sinopsis/>
+         </libro>          
+         <libro id="L3333" Tipo_clase="Didáctico" NumeroPaginas="valor">
+                <titulo>Nombre libro</titulo>
+                        <capitulos>
+                                <capitulo NumeroCapitulo="valor">
+                                        <titulo>Nombre capitulo</titulo>
+                                        <Contenido enlace="enlace.html"/>
+                                </capitulo>
+                        </capitulos> 
+                <indice/>
+                <sinopsis/>
+         </libro>          
+        </libros>
+        <revistas> 
+          <revista id="R" Tipo_clase="Informatica" NumeroPaginas="valor">
+                 <titulo>Nombre revista</titulo>
+                 <NumeroRevista>Numero revista</NumeroRevista>
+                 <indice/>
+                 <Secciones>
+                        <Seccion>
+                                  <NumeroPagina>Numero pagina</NumeroPagina> 
+                                  <Contenido enlace="enlace.html"/>
+                        </Seccion>
+                 </Secciones>
+          </revista>
+          <revista id="R" Tipo_clase="Corazon" NumeroPaginas="valor">
+                 <titulo>Nombre revista</titulo>
+                 <NumeroRevista>Numero revista</NumeroRevista>
+                 <indice/>            
+                 <Secciones>
+                        <Seccion>
+                                 <NumeroPagina>Numero pagina</NumeroPagina> 
+                                <Contenido enlace="enlace.html"/>
+                        </Seccion>
+                 </Secciones>
+          </revista>
+          <revista id="R" Tipo_clase="Coches" NumeroPaginas="valor">
+                 <titulo>Nombre revista</titulo>
+                 <NumeroRevista>Numero revista</NumeroRevista>
+                 <indice/>
+                 <Secciones>
+                        <Seccion>
+                                <NumeroPagina>Numero pagina</NumeroPagina> 
+                                <Contenido enlace="enlace.html"/>
+                        </Seccion>
+                 </Secciones>
+          </revista>
+          <revista id="R" Tipo_clase="Investigacion" NumeroPaginas="valor">
+                 <titulo>Nombre revista</titulo>
+                 <NumeroRevista>Numero revista</NumeroRevista>
+                 <indice/>
+                 <Secciones>
+                        <Seccion>
+                                <NumeroPagina>Numero pagina</NumeroPagina> 
+                                <Contenido enlace="enlace.html"/>
+                        </Seccion>
+                 </Secciones>
+          </revista>
+          <revista id="R" Tipo_clase="Otras" NumeroPaginas="valor">
+                 <titulo>Nombre revista</titulo>
+                 <NumeroRevista>Numero revista</NumeroRevista>
+                 <indice/>
+                 <Secciones>
+                        <Seccion>
+                                <NumeroPagina>Numero pagina</NumeroPagina> 
+                                <Contenido enlace="enlace.html"/>
+                        </Seccion>
+                 </Secciones>
+          </revista>
+        </revistas>   
+        <periodicos>
+          <periodico id="P4444" Tipo_clase="Nacionales" FechaPublicacion="fecha">
+                 <indice/>
+                 <seccion_periodico tipoSeccion="Economica">
+                                <articulos>
+                                        <articulo autor="nombreAutor">
+                                                <Contenido enlace="enlace.html" />
+                                        </articulo>
+                                </articulos>
+                 </seccion_periodico> 
+                 <seccion_periodico tipoSeccion="Opinion">
+                                <articulos>
+                                        <articulo autor="nombreAutor">
+                                                <Contenido enlace="enlace.html" />
+                                        </articulo>
+                                </articulos>
+                 </seccion_periodico> 
+                 <seccion_periodico tipoSeccion="Deportes">
+                                <articulos>
+                                        <articulo autor="nombreAutor">
+                                                <Contenido enlace="enlace.html" />
+                                        </articulo>
+                                </articulos>
+                 </seccion_periodico> 
+                 <seccion_periodico tipoSeccion="Nacional">
+                                <articulos>
+                                        <articulo autor="nombreAutor">
+                                                <Contenido enlace="enlace.html" />
+                                        </articulo>
+                                </articulos>
+                 </seccion_periodico> 
+                 <seccion_periodico tipoSeccion="Internacional">
+                                <articulos>
+                                        <articulo autor="nombreAutor">
+                                                <Contenido enlace="enlace.html" />
+                                        </articulo>
+                                </articulos>
+                 </seccion_periodico> 
+          </periodico>    
+          <periodico id="P5555" Tipo_clase="Interacional" FechaPublicacion="fecha">
+                 <indice/>
+                 <seccion_periodico tipoSeccion="Economica">
+                                <articulos>
+                                        <articulo autor="nombreAutor">
+                                                <Contenido enlace="enlace.html" />
+                                        </articulo>
+                                </articulos>
+                 </seccion_periodico> 
+                 <seccion_periodico tipoSeccion="Opinion">
+                                <articulos>
+                                        <articulo autor="nombreAutor">
+                                                <Contenido enlace="enlace.html" />
+                                        </articulo>
+                                </articulos>
+                 </seccion_periodico> 
+                 <seccion_periodico tipoSeccion="Deportes">
+                                <articulos>
+                                        <articulo autor="nombreAutor">
+                                                <Contenido enlace="enlace.html" />
+                                        </articulo>
+                                </articulos>
+                 </seccion_periodico> 
+                 <seccion_periodico tipoSeccion="Nacional">
+                                <articulos>
+                                        <articulo autor="nombreAutor">
+                                                <Contenido enlace="enlace.html" />
+                                        </articulo>
+                                </articulos>
+                 </seccion_periodico> 
+                 <seccion_periodico tipoSeccion="Internacional">
+                                <articulos>
+                                        <articulo autor="nombreAutor">
+                                                <Contenido enlace="enlace.html" />
+                                        </articulo>
+                                </articulos>
+                 </seccion_periodico> 
+         </periodico>               
+        </periodicos>                   
+</BibliotecaAzahara>
