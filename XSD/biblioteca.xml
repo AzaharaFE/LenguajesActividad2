@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="biblioteca.xsd">
+    <libros>
+        <libro id="L0001" tipo_clase="novela" num_pag="25">
+            <titulo_libro>El jardín de las sombras</titulo_libro>
+            <capitulo num_pag_cap="12">
+                <titulo_cap>La llegada</titulo_cap>
+                <contenido enlace="enlace.html"></contenido>
+            </capitulo>
+            <capitulo num_pag_cap="10">
+                <titulo_cap>El descubrimiento</titulo_cap>
+                <contenido enlace="enlace.html"></contenido>
+            </capitulo>
+            <indice>
+                Capítulo 1: "La llegada" 
+                Capítulo 2: "El descubrimiento"
+            </indice>
+            <sinopsis>
+            Después de la muerte de su abuela, Sarah hereda su casa y su hermoso jardín. 
+            Pero pronto descubre que el jardín esconde secretos oscuros que han sido enterrados durante décadas. 
+            Con la ayuda de su vecino, un anciano misterioso y sabio, Sarah comienza a descubrir la verdad detrás de las sombras que acechan en su jardín.
+            Pero cuanto más aprende, más peligroso se vuelve. ¿Podrá Sarah descubrir el secreto del jardín antes de que sea demasiado tarde?
+            </sinopsis>
+        </libro>
+
+         <libro id="L0002" tipo_clase="infantil" num_pag="20">
+            <titulo_libro>El dragón de la montaña</titulo_libro>
+            <capitulo num_pag_cap="8">
+            <titulo_cap>La búsqueda comienza</titulo_cap>
+            <contenido enlace="enlace.html"></contenido>
+            </capitulo>
+            <capitulo num_pag_cap="10">
+                <titulo_cap>La cueva del dragón</titulo_cap>
+                <contenido enlace="enlace.html"></contenido>
+            </capitulo>
+            <indice>
+                Capítulo 1: "La búsqueda comienza"
+                Capítulo 2: "La cueva del dragón"
+            </indice>
+            <sinopsis>
+                Un pequeño grupo de valientes aventureros se embarcan en una peligrosa misión para encontrar al mítico dragón de la montaña. Con la ayuda de un mapamundi antiguo y la guía de un sabio anciano, los aventureros luchan contra obstáculos imposibles y peligros mortales. ¿Podrán encontrar al dragón y descubrir los secretos que guarda?
+            </sinopsis>
+
+        </libro>
+            <libro id="L0003" tipo_clase="didactico" num_pag="30">
+            <titulo_libro>La historia de las estaciones</titulo_libro>
+            <capitulo num_pag_cap="15">
+                <titulo_cap>Primavera y verano</titulo_cap>
+                <contenido enlace="enlace.html"></contenido>
+            </capitulo>
+            <capitulo num_pag_cap="15">
+                <titulo_cap>Otoño e invierno</titulo_cap>
+                <contenido enlace="enlace.html"></contenido>
+            </capitulo>
+            <indice>
+                Capítulo 1: "Primavera y verano"
+                Capítulo 2: "Otoño e invierno"
+            </indice>
+            <sinopsis>
+                Descubre la historia detrás de las cuatro estaciones: primavera, verano, otoño e invierno. 
+                Acompaña a los personajes en un viaje por el tiempo para aprender sobre los cambios en la naturaleza que se producen durante cada estación.
+                Este libro didáctico es perfecto para los niños que quieren aprender sobre la ciencia y la naturaleza de una manera divertida y fácil de entender.
+            </sinopsis>
+        </libro>
+    </libros>
+  
+    <revistas>
+        <revista id="R0001" tipo_clase="informatica" num_pag="35">
+            <titulo_rev>Tecnología Digital</titulo_rev>
+            <numero_rev>53</numero_rev>
+            <indice_rev>
+                1. Noticias tecnológicas
+                2.Análisis de dispositivos
+            </indice_rev>
+            <seccion_rev num_pag_sec="10" nombre_sec="Noticias tecnológicas">
+                <contenido enlace="enlace.html"/>
+            </seccion_rev>  
+            <seccion_rev num_pag_sec="25" nombre_sec="Análisis de dispositivos">
+                <contenido enlace="enlace.html"/>
+            </seccion_rev>
+        </revista>
+
+        <revista id="R0002" tipo_clase="corazon" num_pag="40">
+            <titulo_rev>Gente</titulo_rev>
+            <numero_rev>1234</numero_rev>
+            <indice_rev>
+                1. Noticias de famosos
+                2. Escándalos del corazón
+            </indice_rev>
+            <seccion_rev num_pag_sec="15" nombre_sec="Noticias de famosos">
+               <contenido enlace="enlace.html"/>
+            </seccion_rev>  
+            <seccion_rev num_pag_sec="25" nombre_sec="Escándalos del corazón">
+              <contenido enlace="enlace.html"/>
+            </seccion_rev>
+        </revista>
+
+        <revista id="R0003" tipo_clase="coches" num_pag="45">
+            <titulo_rev>Motor</titulo_rev>
+            <numero_rev>567</numero_rev>
+            <indice_rev>
+                1. Novedades del mercado
+                2. Pruebas de coches
+                3. Reportajes sobre el mundo del motor
+            </indice_rev>
+            <seccion_rev num_pag_sec="15" nombre_sec="Novedades del mercado">
+                <contenido enlace="enlace.html"/>
+            </seccion_rev>  
+            <seccion_rev num_pag_sec="15" nombre_sec="Pruebas de coches">
+               <contenido enlace="enlace.html"/>
+            </seccion_rev>
+            <seccion_rev num_pag_sec="15" nombre_sec="Reportajes sobre el mundo del motor">
+                <contenido enlace="enlace.html"/>
+            </seccion_rev>
+        </revista>
+    </revistas>
+    
+    <periodicos>
+        <periodico id="P0001" tipo_clase="nacionales" fecha_publicacion="28/2/2023">
+            <secciones_per>
+                <seccion_per tipo_seccion="economica">
+                    <articulo_per autor="Antonio">
+                        <contenido_per enlace="enlace.html"/>
+                    </articulo_per>
+                </seccion_per>
+                <seccion_per tipo_seccion="opinion">
+                    <articulo_per autor="Juan">
+                        <contenido_per enlace="enlace.html"/>
+                    </articulo_per>
+                </seccion_per>
+            </secciones_per>
+            <indice_per>
+                1.Noticias Economicas
+                2. Noticias Opinion
+            </indice_per>
+            </periodico>
+            <periodico id="P0002" tipo_clase="internacionales" fecha_publicacion="09/05/2023">
+                <secciones_per>
+                    <seccion_per tipo_seccion="economica">
+                        <articulo_per autor="John Doe">
+                            <contenido_per enlace="enlace.html"/>
+                        </articulo_per>
+                    </seccion_per>
+                    <seccion_per tipo_seccion="internacional">
+                        <articulo_per autor="Jane Smith">
+                            <contenido_per enlace="enlace.html"/>
+                        </articulo_per>
+                    </seccion_per>
+                </secciones_per>
+                <indice_per>
+                    1. Noticias Económicas
+                    2. Noticias Internacionales
+                </indice_per>
+        </periodico>
+    </periodicos>
+    
+</biblioteca>
