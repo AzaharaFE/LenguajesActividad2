@@ -1,18 +1,20 @@
 <!ELEMENT BibliotecaAzahara (libros,revistas,periodicos)>
+
 <!ELEMENT libros (libro+)>
 <!ELEMENT libro (titulo,capitulos,indice,sinopsis)>
 <!ELEMENT capitulos (capitulo+)>
 <!ELEMENT capitulo (titulo,Contenido)>
+
 <!ELEMENT revistas (revista+)>
 <!ELEMENT revista (titulo,NumeroRevista,indice,Secciones)>
 <!ELEMENT Secciones (Seccion+)>
 <!ELEMENT Seccion (NumeroPagina,Contenido)>
+
 <!ELEMENT periodicos (periodico+)>
 <!ELEMENT periodico (indice,seccion_periodico)>
 <!ELEMENT seccion_periodico (articulos)>
 <!ELEMENT articulos (articulo+)>
 <!ELEMENT articulo (Contenido)>
-
 
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT Contenido (#PCDATA)>
@@ -21,10 +23,9 @@
 <!ELEMENT NumeroRevista (#PCDATA)>
 <!ELEMENT NumeroPagina (#PCDATA)>
 
-
 <!ATTLIST libro 
 id ID #REQUIRED
-Tipo_clase (Novela | Infantil | Didactico) CDATA #REQUIRED
+Tipo_clase (Novela | Infantil | Didactico) #REQUIRED
 NumeroPaginas CDATA #REQUIRED
 >
 
@@ -38,13 +39,13 @@ enlace CDATA #FIXED "enlace.html"
 
 <!ATTLIST revista 
 id ID #FIXED "R"
-Tipo_clase CDATA #REQUIRED
+Tipo_clase (Informatica | Corazon | Coches | Investigacion | Otras) #REQUIRED
 NumeroPaginas CDATA #REQUIRED
 >
 
 <!ATTLIST periodico
  id ID #REQUIRED
-Tipo_clase (Nacionales | Internacionales) CDATA #REQUIRED
+Tipo_clase (Nacionales | Internacionales) #REQUIRED
 FechaPublicacion CDATA #REQUIRED
 >
 
