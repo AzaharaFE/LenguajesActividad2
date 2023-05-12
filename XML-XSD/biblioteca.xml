@@ -96,6 +96,7 @@
         <periodicos>
           <periodico id="P4444" Tipo_clase="Nacionales" FechaPublicacion="">
                  <indice/>
+                 <secciones></secciones>
                  <seccion_periodico tipoSeccion="Economica">
                                 <articulos>
                                         <articulo autor="nombreAutor">

@@ -96,44 +96,47 @@
         <periodicos>
           <periodico id="P4444" Tipo_clase="Nacionales" FechaPublicacion="fecha">
                  <indice/>
-                 <seccion_periodico tipoSeccion="Economica">
+                 <secciones>
+                        <seccion_periodico tipoSeccion="Economica">
                                 <articulos>
                                         <articulo autor="nombreAutor">
                                                 <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
-                 </seccion_periodico> 
-                 <seccion_periodico tipoSeccion="Opinion">
+                        </seccion_periodico> 
+                         <seccion_periodico tipoSeccion="Opinion">
                                 <articulos>
                                         <articulo autor="nombreAutor">
                                                 <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
-                 </seccion_periodico> 
-                 <seccion_periodico tipoSeccion="Deportes">
+                         </seccion_periodico> 
+                         <seccion_periodico tipoSeccion="Deportes">
                                 <articulos>
                                         <articulo autor="nombreAutor">
                                                 <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
-                 </seccion_periodico> 
-                 <seccion_periodico tipoSeccion="Nacional">
+                         </seccion_periodico> 
+                         <seccion_periodico tipoSeccion="Nacional">
                                 <articulos>
                                         <articulo autor="nombreAutor">
                                                 <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
-                 </seccion_periodico> 
-                 <seccion_periodico tipoSeccion="Internacional">
+                         </seccion_periodico> 
+                        <seccion_periodico tipoSeccion="Internacional">
                                 <articulos>
                                         <articulo autor="nombreAutor">
                                                 <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
-                 </seccion_periodico> 
+                        </seccion_periodico> 
+                        </secciones>
           </periodico>    
           <periodico id="P5555" Tipo_clase="Internacionales" FechaPublicacion="fecha">
                  <indice/>
+                 <secciones>
                  <seccion_periodico tipoSeccion="Economica">
                                 <articulos>
                                         <articulo autor="nombreAutor">
@@ -169,6 +172,7 @@
                                         </articulo>
                                 </articulos>
                  </seccion_periodico> 
+                 </secciones>
          </periodico>               
         </periodicos>   
 </biblioteca>                

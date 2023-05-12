@@ -11,7 +11,8 @@
 <!ELEMENT Seccion (NumeroPagina,Contenido)>
 
 <!ELEMENT periodicos (periodico+)>
-<!ELEMENT periodico (indice,seccion_periodico)>
+<!ELEMENT periodico (indice,secciones)>
+<!ELEMENT secciones (seccion_periodico+)>
 <!ELEMENT seccion_periodico (articulos)>
 <!ELEMENT articulos (articulo+)>
 <!ELEMENT articulo (Contenido)>
