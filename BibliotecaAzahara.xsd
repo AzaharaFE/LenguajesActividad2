@@ -104,7 +104,8 @@
                                 </complexType>
                             </element>
                         </sequence>
-                    </complexTipe>
+                    </complexType>
+                </element>
                 <element name="periodicos">
                     <complexType>
                         <sequence>
@@ -123,11 +124,11 @@
                                                                         <sequence>
                                                                             <element name="contenido">
                                                                                 <complexType>
-                                                                                    <attribute name="enlace" type="xs:string"></attribute>
+                                                                                    <attribute name="enlace" type="string"></attribute>
                                                                                 </complexType>
                                                                             </element>
                                                                         </sequence>
-                                                                        <attribute name="autor" type="xs:string" use="required"></attribute>
+                                                                        <attribute name="autor" type="string" use="required"></attribute>
                                                                     </complexType>
                                                                 </element>
                                                             </sequence>
@@ -150,7 +151,7 @@
                                     </sequence>
                                     <attribute name="id" use="required">
                                             <simpleType>
-                                                <restriction base="xs:ID">
+                                                <restriction base="ID">
                                                     <pattern value="P[0-9]{4}"></pattern>
                                                 </restriction>
                                             </simpleType>
