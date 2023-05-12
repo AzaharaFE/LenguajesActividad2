@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE BibliotecaAzahara SYSTEM "BibliotecaAzahara.dtd">
+<BibliotecaAzahara xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="BibliotecaAzahara.xsd">
 <BibliotecaAzahara>
         <libros>
          <libro id="L1111" Tipo_clase="Novela" NumeroPaginas="valor">
