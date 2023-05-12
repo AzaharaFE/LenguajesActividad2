@@ -1,4 +1,4 @@
-<!ELEMENT BibliotecaAzahara (libros,revistas,periodicos)>
+<!ELEMENT biblioteca (libros,revistas,periodicos)>
 
 <!ELEMENT libros (libro+)>
 <!ELEMENT libro (titulo,capitulos,indice,sinopsis)>
@@ -38,19 +38,19 @@ enlace CDATA #FIXED "enlace.html"
 >
 
 <!ATTLIST revista 
-id ID #FIXED "R"
+id ID #REQUIRED
 Tipo_clase (Informatica | Corazon | Coches | Investigacion | Otras) #REQUIRED
 NumeroPaginas CDATA #REQUIRED
 >
 
 <!ATTLIST periodico
- id ID #REQUIRED
+id ID #REQUIRED
 Tipo_clase (Nacionales | Internacionales) #REQUIRED
 FechaPublicacion CDATA #REQUIRED
 >
 
 <!ATTLIST seccion_periodico 
-tipoSeccion (Economica | Opinion | Deportes | Nacional | Internacional) CDATA #REQUIRED
+tipoSeccion (Economica | Opinion | Deportes | Nacional | Internacional) #REQUIRED
 >
 
 <!ATTLIST articulo

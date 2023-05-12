@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE BibliotecaAzahara SYSTEM "BibliotecaAzahara.dtd">
-<BibliotecaAzahara xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="BibliotecaAzahara.xsd">
-<BibliotecaAzahara>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<biblioteca>    
         <libros>
          <libro id="L1111" Tipo_clase="Novela" NumeroPaginas="valor">
                 <titulo>Nombre libro</titulo>
@@ -26,7 +24,7 @@
                 <indice/>
                 <sinopsis/>
          </libro>          
-         <libro id="L3333" Tipo_clase="Didáctico" NumeroPaginas="valor">
+         <libro id="L3333" Tipo_clase="Didactico" NumeroPaginas="valor">
                 <titulo>Nombre libro</titulo>
                         <capitulos>
                                 <capitulo NumeroCapitulo="valor">
@@ -50,7 +48,7 @@
                         </Seccion>
                  </Secciones>
           </revista>
-          <revista id="R" Tipo_clase="Corazon" NumeroPaginas="valor">
+          <revista id="R01" Tipo_clase="Corazon" NumeroPaginas="valor">
                  <titulo>Nombre revista</titulo>
                  <NumeroRevista>Numero revista</NumeroRevista>
                  <indice/>            
@@ -61,7 +59,7 @@
                         </Seccion>
                  </Secciones>
           </revista>
-          <revista id="R" Tipo_clase="Coches" NumeroPaginas="valor">
+          <revista id="R02" Tipo_clase="Coches" NumeroPaginas="valor">
                  <titulo>Nombre revista</titulo>
                  <NumeroRevista>Numero revista</NumeroRevista>
                  <indice/>
@@ -72,7 +70,7 @@
                         </Seccion>
                  </Secciones>
           </revista>
-          <revista id="R" Tipo_clase="Investigacion" NumeroPaginas="valor">
+          <revista id="R03" Tipo_clase="Investigacion" NumeroPaginas="valor">
                  <titulo>Nombre revista</titulo>
                  <NumeroRevista>Numero revista</NumeroRevista>
                  <indice/>
@@ -83,7 +81,7 @@
                         </Seccion>
                  </Secciones>
           </revista>
-          <revista id="R" Tipo_clase="Otras" NumeroPaginas="valor">
+          <revista id="R04" Tipo_clase="Otras" NumeroPaginas="valor">
                  <titulo>Nombre revista</titulo>
                  <NumeroRevista>Numero revista</NumeroRevista>
                  <indice/>
@@ -101,76 +99,76 @@
                  <seccion_periodico tipoSeccion="Economica">
                                 <articulos>
                                         <articulo autor="nombreAutor">
-                                                <Contenido enlace="enlace.html" />
+                                                <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
                  </seccion_periodico> 
                  <seccion_periodico tipoSeccion="Opinion">
                                 <articulos>
                                         <articulo autor="nombreAutor">
-                                                <Contenido enlace="enlace.html" />
+                                                <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
                  </seccion_periodico> 
                  <seccion_periodico tipoSeccion="Deportes">
                                 <articulos>
                                         <articulo autor="nombreAutor">
-                                                <Contenido enlace="enlace.html" />
+                                                <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
                  </seccion_periodico> 
                  <seccion_periodico tipoSeccion="Nacional">
                                 <articulos>
                                         <articulo autor="nombreAutor">
-                                                <Contenido enlace="enlace.html" />
+                                                <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
                  </seccion_periodico> 
                  <seccion_periodico tipoSeccion="Internacional">
                                 <articulos>
                                         <articulo autor="nombreAutor">
-                                                <Contenido enlace="enlace.html" />
+                                                <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
                  </seccion_periodico> 
           </periodico>    
-          <periodico id="P5555" Tipo_clase="Interacional" FechaPublicacion="fecha">
+          <periodico id="P5555" Tipo_clase="Internacionales" FechaPublicacion="fecha">
                  <indice/>
                  <seccion_periodico tipoSeccion="Economica">
                                 <articulos>
                                         <articulo autor="nombreAutor">
-                                                <Contenido enlace="enlace.html" />
+                                                <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
                  </seccion_periodico> 
                  <seccion_periodico tipoSeccion="Opinion">
                                 <articulos>
                                         <articulo autor="nombreAutor">
-                                                <Contenido enlace="enlace.html" />
+                                                <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
                  </seccion_periodico> 
                  <seccion_periodico tipoSeccion="Deportes">
                                 <articulos>
                                         <articulo autor="nombreAutor">
-                                                <Contenido enlace="enlace.html" />
+                                                <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
                  </seccion_periodico> 
                  <seccion_periodico tipoSeccion="Nacional">
                                 <articulos>
                                         <articulo autor="nombreAutor">
-                                                <Contenido enlace="enlace.html" />
+                                                <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
                  </seccion_periodico> 
                  <seccion_periodico tipoSeccion="Internacional">
                                 <articulos>
                                         <articulo autor="nombreAutor">
-                                                <Contenido enlace="enlace.html" />
+                                                <Contenido enlace="enlace.html"/>
                                         </articulo>
                                 </articulos>
                  </seccion_periodico> 
          </periodico>               
-        </periodicos>                   
-</BibliotecaAzahara>
+        </periodicos>   
+</biblioteca>                
