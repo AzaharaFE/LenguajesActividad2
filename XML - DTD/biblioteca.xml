@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<biblioteca>
+    <libros>
+        <libro id="L0001" tipo_clase="Novela" numero_paginas="55">
+            <titulo>El misterio de la isla perdida</titulo>
+            <capitulos>
+                <capitulo numero_paginas="10">
+                    <titulo>El inicio de la aventura</titulo>
+                    <contenido enlace="enlace.html" />
+                </capitulo>
+                <capitulo numero_paginas="20">
+                    <titulo>El viaje en barco</titulo>
+                    <contenido enlace="enlace.html" />
+                </capitulo>
+                <capitulo numero_paginas="25">
+                    <titulo>La tormenta en alta mar</titulo>
+                    <contenido enlace="enlace.html" />
+                </capitulo>
+            </capitulos>
+            <indice>
+                    1. El inicio de la aventura 
+                    2. El viaje en barco 
+                    3. La tormenta en alta mar
+            </indice>
+            <sinopsis>
+                        El misterio de la isla perdida es una emocionante novela de aventuras que sigue la historia
+                        de un grupo de amigos que se embarcan en una expedición para encontrar una isla que se cree perdida 
+                        en medio del océano. Después de enfrentarse a una tormenta en alta mar, los aventureros llegan 
+                        finalmente a la isla y comienzan a explorarla. Pero pronto descubren que la isla esconde un oscuro 
+                        secreto y que no están solos en ella. Pronto se enfrentarán a peligrosos contrabandistas y tendrán 
+                        que resolver el misterio de la isla perdida para poder escapar con vida. ¿Lograrán descubrir el 
+                        secreto de la isla? Descúbrelo en esta emocionante novela de aventuras.
+            </sinopsis>
+        </libro>
+        <libro id="L0002" tipo_clase="Infantil" numero_paginas="61">
+            <titulo>El gran libro de los animales</titulo>
+            <capitulos>
+                <capitulo numero_paginas="7">
+                    <titulo>Introducción a los animales</titulo>
+                    <contenido enlace="enlace.html" />
+                </capitulo>
+                <capitulo numero_paginas="19">
+                    <titulo>Animales terrestres</titulo>
+                    <contenido enlace="enlace.html" />
+                </capitulo>
+                <capitulo numero_paginas="12">
+                    <titulo>Animales acuáticos</titulo>
+                    <contenido enlace="enlace.html" />
+                </capitulo>
+                <capitulo numero_paginas="15">
+                    <titulo>Animales exóticos</titulo>
+                    <contenido enlace="enlace.html" />
+                </capitulo>
+                <capitulo numero_paginas="8">
+                    <titulo>Animales en peligro de extinción</titulo>
+                    <contenido enlace="enlace.html" />
+                </capitulo>
+            </capitulos>
+            <indice>
+                    1. Introducción a los animales
+                    2. Animales terrestres
+                    3. Animales acuáticos
+                    4. Animales exóticos
+                    5. Animales en peligro de extinción
+            </indice>
+            <sinopsis>
+                        El gran libro de los animales es un libro didáctico infantil que presenta una amplia
+                         variedad de animales de todo el mundo. A través de sus páginas, los jóvenes lectores 
+                         podrán aprender sobre los diferentes tipos de animales que existen, tanto terrestres 
+                         como acuáticos, y descubrir las características únicas de cada uno de ellos. También 
+                         conocerán algunos de los animales en peligro de extinción y aprenderán cómo pueden 
+                         ayudar a protegerlos. El libro incluye además actividades y juegos para que los niños 
+                         puedan poner en práctica lo que han aprendido y divertirse al mismo tiempo. 
+                         ¡Acompaña a los personajes de este libro en un emocionante viaje por el mundo de 
+                         los animales!
+            </sinopsis>
+        </libro>
+        <libro id="L0003" tipo_clase="Didactico" numero_paginas="55">
+            <titulo>La ciencia detrás de las estrellas</titulo>
+            <capitulos>
+                <capitulo numero_paginas="30">
+                    <titulo>El Universo</titulo>
+                    <contenido enlace="enlace.html" />
+                </capitulo>
+                <capitulo numero_paginas="20">
+                    <titulo>Las estrellas</titulo>
+                    <contenido enlace="enlace.html" />
+                </capitulo>
+            </capitulos>
+            <indice>
+                    1. El Universo
+                    2. Las estrellas
+            </indice>
+            <sinopsis>
+                        La ciencia detrás de las estrellas es un libro didáctico que explica de forma sencilla 
+                        y amena los conceptos básicos de la astronomía y las estrellas. En el primer capítulo, 
+                        se habla sobre el Universo, su origen y su evolución. Se explican conceptos como la 
+                        expansión del Universo, la teoría del Big Bang y la formación de las galaxias. En el 
+                        segundo capítulo, se profundiza en las estrellas, su nacimiento, vida y muerte. 
+                        Se explica cómo se forman las estrellas, cómo funcionan y por qué algunas explotan 
+                        en supernovas. Además, se habla sobre la importancia de las estrellas en la cultura 
+                        y la historia de la humanidad. Con este libro, los lectores podrán aprender sobre 
+                        la ciencia detrás de las estrellas de una manera sencilla y accesible.
+            </sinopsis>
+        </libro>
+    </libros>
+    <revistas>
+        <revista id="R0001" tipo_clase="Coches" numero_paginas="30">
+            <titulo>Maxi Tunning</titulo>
+            <numero_revista>51</numero_revista>
+            <indice>
+                    1. Transformando tu coche
+                    2. Garage Showdown
+                    3. Spotlight en el mundo del tunning
+            </indice>
+            <secciones>
+                <seccion numero_paginas="10"> 
+                    <titulo>Transformando tu coche</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+                <seccion numero_paginas="15">
+                    <titulo>Garage Showdown</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+                <seccion numero_paginas="5">
+                    <titulo>Spotlight en el mundo del tunning</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+            </secciones>
+        </revista>
+        <revista id="R0002" tipo_clase="Informatica" numero_paginas="45">
+            <titulo>Byte Beat</titulo>
+            <numero_revista>10</numero_revista>
+            <indice>
+                    1. Tech Trends
+                    2. Code World
+                    3. Online Security
+            </indice>
+            <secciones>
+                <seccion numero_paginas="15">
+                    <titulo>Tech Trends</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+                <seccion numero_paginas="10">
+                    <titulo>Code World</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+                <seccion numero_paginas="20">
+                    <titulo>Online Security</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+            </secciones>
+        </revista>
+        <revista id="R0003" tipo_clase="Corazon" numero_paginas="35">
+            <titulo>Corazón y Estilo</titulo>
+            <numero_revista>7</numero_revista>
+            <indice>
+                    1. Famosos y famosas
+                    2. Amor y relaciones
+                    3. Vida saludable
+                    4. Moda y belleza
+            </indice>
+            <secciones>
+                <seccion numero_paginas="5">
+                    <titulo>Famosos y famosas</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+                <seccion numero_paginas="5">
+                    <titulo>Amor y relaciones</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+                <seccion numero_paginas="15">
+                    <titulo>Vida saludable</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+                <seccion numero_paginas="10">
+                    <titulo>Moda y belleza</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+            </secciones>
+        </revista>
+        <revista id="R0004" tipo_clase="Investigacion" numero_paginas="30">
+            <titulo>Descubre</titulo>
+            <numero_revista>18</numero_revista>
+            <indice>
+                    1. Ciencia y tecnología
+                    2. Medio ambiente y sostenibilidad
+            </indice>
+            <secciones>
+                <seccion numero_paginas="21"> 
+                    <titulo>Ciencia y tecnología</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+                <seccion numero_paginas="9">
+                    <titulo>Medio ambiente y sostenibilidad</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+            </secciones>
+        </revista>
+        <revista id="R0005" tipo_clase="Otras" numero_paginas="45">
+            <titulo>ArquiMag</titulo>
+            <numero_revista>33</numero_revista>
+            <indice>
+                    1. Diseño y tendencias
+                    2. Construcción y materiales
+                    3. Arquitectura sostenible
+                    4. Patrimonio arquitectónico
+            </indice>
+            <secciones>
+                <seccion numero_paginas="10"> 
+                    <titulo>Diseño y tendencias</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+                <seccion numero_paginas="10"> 
+                    <titulo>Construcción y materiales</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+                <seccion numero_paginas="13"> 
+                    <titulo>Arquitectura sostenible</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+                <seccion numero_paginas="12"> 
+                    <titulo>Patrimonio arquitectónico</titulo>
+                    <contenido enlace="enlace.html" />
+                </seccion>
+            </secciones>
+        </revista>
+    </revistas>
+    <periodicos>
+        <periodico id="P0001" tipo_clase="Nacionales">
+            <fecha_publicacion>2023-02-21</fecha_publicacion>
+            <indice>
+                    1. Deportes
+                        1.1 María García Pérez
+                        1.2 Javier Vallés Cuenca
+                    2. Economía
+                        2.1 Laura Rodríguez Gómez
+                    3. Nacional
+                        3.1 Eduardo Ramírez García
+            </indice>
+            <secciones_periodico>
+                <seccion_periodico tipo_seccion="Deportes">
+                    <articulos>
+                        <articulo autor="María García Pérez">
+                            <contenido enlace="enlace.html" />
+                        </articulo>
+                        <articulo autor="Javier Vallés Cuenca">
+                            <contenido enlace="enlace.html" />
+                        </articulo>
+                    </articulos>
+                </seccion_periodico>
+                <seccion_periodico tipo_seccion="Economica">
+                    <articulos>
+                        <articulo autor="Laura Rodríguez Gómez">
+                            <contenido enlace="enlace.html" />
+                        </articulo>
+                    </articulos>
+                </seccion_periodico>
+                <seccion_periodico tipo_seccion="Nacional">
+                    <articulos>
+                        <articulo autor="Eduardo Ramírez García">
+                            <contenido enlace="enlace.html" />
+                        </articulo>
+                    </articulos>
+                </seccion_periodico>
+            </secciones_periodico>
+        </periodico>
+        <periodico id="P0002" tipo_clase="Internacionales">
+            <fecha_publicacion>2023-03-07</fecha_publicacion>
+            <indice>
+                    1. Internacional
+                        1.1 Daniel Pérez Ruiz
+                        1.2 Julia García Fernández
+                    2. Opinión
+                        2.1 Carlos Moreno Torres
+                        2.2 Martina García Flores
+                        2.3 Javier Rodríguez López
+            </indice>
+            <secciones_periodico>
+                <seccion_periodico tipo_seccion="Internacional">
+                    <articulos>
+                        <articulo autor="Daniel Pérez Ruiz">
+                            <contenido enlace="enlace.html" />
+                        </articulo>
+                        <articulo autor="Julia García Fernández">
+                            <contenido enlace="enlace.html" />
+                        </articulo>
+                    </articulos>
+                </seccion_periodico>
+                <seccion_periodico tipo_seccion="Opinion">
+                    <articulos>
+                        <articulo autor="Carlos Moreno Torres">
+                            <contenido enlace="enlace.html" />
+                        </articulo>
+                        <articulo autor="Martina García Flores">
+                            <contenido enlace="enlace.html" />
+                        </articulo>
+                        <articulo autor="Javier Rodríguez López">
+                            <contenido enlace="enlace.html" />
+                        </articulo>
+                    </articulos>
+                </seccion_periodico>
+            </secciones_periodico>
+        </periodico>
+    </periodicos>
+</biblioteca>
